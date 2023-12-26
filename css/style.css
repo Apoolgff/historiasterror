@@ -9,7 +9,7 @@
 
 html{
     box-sizing: border-box;
-    font-size: 62.5%;/*1rem=10px*/
+    font-size: 62.5%;
     background-color: var(--negro);
 }
 
@@ -27,7 +27,6 @@ body{
 .contenedor{
     max-width: 120rem;
     width: 90%;
-    /**width: min(90%, 120rem);**/
     margin: 0 auto;
 }
 
@@ -86,7 +85,6 @@ label{
     background-image: url(../img/horrorBack.jpg);
 }
 .header{
-    /**background-image: url(../img/horrorBack.jpg);**/
     height: 60rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -227,14 +225,8 @@ label{
    }
    .sobre-nosotros__imagen,
    .sobre-nosotros__texto{
-    flex-basis: 50%;/**lo mismo que width**/
+    flex-basis: 50%;
    }
-
-   /**lo mismo con grid
-   .sobre-nosotros{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;**/
    }
 
 .historias{
