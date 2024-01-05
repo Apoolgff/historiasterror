@@ -183,8 +183,14 @@ label{
 .boton--primario{
     background-color: red;
 }
+.boton--primario:hover{
+    background-color: rgb(166, 0, 0);
+}
 .boton--secundario{
     background-color: rgb(166, 0, 0);
+}
+.boton--secundario:hover{
+    background-color: rgb(255, 3, 3);
 }
 .historias{
     list-style: none;
